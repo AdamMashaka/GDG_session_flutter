@@ -1,0 +1,31 @@
+name: tflite_flutter_app
+description: "A new Flutter project using TensorFlow Lite."
+
+publish_to: 'none' # Keeps the project private. Remove if you plan to publish.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.9.0        # TFLite for model inference
+  image: ^3.0.2                 # For image processing, useful with TFLite
+  flutter_lints: ^4.0.0         # Linting for better coding practices
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Add your TFLite model in the assets section
+  assets:
+    - assets/your_model.tflite   # Replace with your model's actual filename
+
+  # (Optional) Add any images used for testing or UI purposes
+  # assets:
+  #   - images/sample.jpg
