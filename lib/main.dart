@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'TFLite Flutter Demo',
       home: Scaffold(
-        appBar: AppBar(title: Text('TFLite Flutter Demo with Adam')),
+        appBar: AppBar(title: Text('TFLite Flutter Demo with Adam Katani')),
         body: TFLiteDemo(),
       ),
     );
