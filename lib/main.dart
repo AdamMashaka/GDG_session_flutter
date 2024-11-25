@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tflite_flutter/tflite_flutter.dart';
+import 'package:tflite_flutter/tflite_flutter.dart'; 
 
 void main() => runApp(MyApp());
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 }
 
 class TFLiteDemo extends StatefulWidget {
-  @override
+  @override 
   _TFLiteDemoState createState() => _TFLiteDemoState();
 }
 
